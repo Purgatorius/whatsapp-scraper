@@ -1,6 +1,7 @@
 from enum import Enum
 
 class GoogleLocators(Enum):
+    GOOGLE_URL = "https://www.whatsapp.com/?lang=pl_PL"
     ACCEPT_POLISH = "button:has-text('Zaakceptuj wszystko')"
     ACCEPT_ENGLISH = "button:has-text('Accept all')"
     SEARCH_BOX = '[name="q"]'
