@@ -21,6 +21,7 @@ EvidenceScraper_WhatsApp/
 │ ├── scraper.py # app main class
 │ ├── playwright_runner.py # wrapper for Playwright
 │ ├── exporter.py # export data
+│ ├── locators.py # localize elements
 │ └── utils.py # additional functions
 ├── tests/ # unit tests
 │ ├── init.py
