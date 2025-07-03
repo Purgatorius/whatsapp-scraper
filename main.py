@@ -1,4 +1,4 @@
 from evidence_scraper.scraper import WhatsAppScraper
 
-scraper = WhatsAppScraper(headless=True)
+scraper = WhatsAppScraper(headless=False)
 scraper.run()
