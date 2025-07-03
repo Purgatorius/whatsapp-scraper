@@ -13,7 +13,9 @@ class WhatsAppScraper:
         self.extract_messages()
         self.runner.close()
 
-    def go_to_WhatsAppWeb()
+    def go_to_WhatsAppWeb(self):
+        self.page.goto(WhatsAppLocators.HOME_URL.value)
+
     def accept_cookie_popupi()
     def select_chat()
     def extract_messages()
