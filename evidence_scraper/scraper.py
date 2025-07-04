@@ -17,9 +17,8 @@ class WhatsAppScraper:
         self.page.goto(WhatsAppLocators.HOME_URL.value)
 
     def accept_cookie_popup(self):
-        # TODO: implement logic
-        pass
-        
+        self.page.wait_for_selector(WhatsAppLocators.CONTINUE_BUTTON.value) 
+        self.page.locator(WhatsAppLocators.CONTINUE_BUTTON.value).click()
 
     def select_chat(self):
         # TODO: implement logic
