@@ -6,7 +6,7 @@ class PlaywrightRunner:
         self.headless = headless
         self.playwright = sync_playwright().start()
         self.browser = self.playwright.chromium.launch(headless=self.headless)
-        self.contex = self.browser.new_contex()
+        self.context = self.browser.new_contex()
         self.page = self.contex.new_page()
 
     def close(self):
