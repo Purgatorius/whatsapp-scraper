@@ -16,6 +16,15 @@ class WhatsAppScraper:
     def go_to_WhatsAppWeb(self):
         self.page.goto(WhatsAppLocators.HOME_URL.value)
 
-    def accept_cookie_popupi()
-    def select_chat()
-    def extract_messages()
+    def accept_cookie_popup(self):
+        # TODO: implement logic
+        pass
+        
+
+    def select_chat(self):
+        # TODO: implement logic
+        pass
+
+    def extract_messages(self):
+        # TODO: implement logic
+        pass        
